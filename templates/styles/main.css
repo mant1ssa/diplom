@@ -1,0 +1,40 @@
+html{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*--------------------------------------------- MY TAILWIND-LIKE styles --------------------------------------*/
+
+.d-flex{
+    display: flex;
+}
+
+.direction-column{
+    flex-direction: column;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.gap-20{
+    gap: 20px;
+}
+.gap-10{
+    gap: 10px;
+}
+
+.m-top50{
+    margin-top: 50px;
+}

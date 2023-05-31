@@ -1,0 +1,43 @@
+.section-main{
+    padding: 30px 0;
+}
+
+h2{
+    font-size: 30px;
+}
+
+/*input[type="file"] {*/
+/*    display: none;*/
+/*}*/
+
+.workspace__input{
+    width: 20%;
+}
+
+.input{
+    /*display: block;*/
+    /*width: 60%;*/
+
+    /*width: 60px;*/
+    height: 150px;
+    background-color: aquamarine;
+    padding: 10px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s;
+
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FF6A00;
+}
+.input:hover{
+    background-color: #B40097;
+    color: white;
+}
+
+.workspace__right{
+    width: 65%;
+    height: 500px;
+    background-color: aqua;
+}
